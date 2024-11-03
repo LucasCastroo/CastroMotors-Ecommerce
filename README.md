@@ -13,6 +13,7 @@ Seguindo as instruções do trabalho irei explicar de forma resumida o que eu fi
 	- CRUD Carro
 	- CRUD Marca
 	- CRUD Categoria
+- Lembrando que em cada CRUD são 4 telas para cada um.
 - Essas telas são protegidas para apenas o usuário administrador ter acesso.
 
 * Criei um usuário Administrador com email "administrador@gmail.com" e senha "Adm123@", que somente este acesso tem acesso as telas de CRUDs.
