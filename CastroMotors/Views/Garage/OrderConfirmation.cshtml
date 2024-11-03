@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Pedido Confirmado";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center mt-5">Pedido Finalizado com Sucesso!</h2>
+<p class="text-center">Obrigado por adicionar carros à sua garagem. Em breve entraremos em contato para finalizar o processo de compra.</p>
+
+<div class="text-center mt-4">
+    @Html.ActionLink("Voltar à Página Inicial", "Index", "Home", new { @class = "btn btn-primary" })
+</div>

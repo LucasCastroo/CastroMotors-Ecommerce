@@ -1,0 +1,169 @@
+﻿@using Microsoft.AspNet.Identity
+@{
+    bool isAdmin = User.Identity.IsAuthenticated && User.Identity.GetUserName() == "administrador@gmail.com";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Castro Motors</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+        /* Configuração para ocupar altura total e flexbox */
+        html, body {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+        }
+
+        .body-content {
+            flex: 1;
+            padding-bottom: 20px;
+        }
+
+        .navbar-nav .nav-link, .navbar-brand {
+            color: black !important;
+        }
+
+        .nav-link:hover {
+            color: gray !important;
+        }
+
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background-color: white;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .footer-links a {
+            color: #adb5bd;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+            .footer-links a:hover {
+                color: #ffffff;
+            }
+
+        .footer-bottom {
+            border-top: 1px solid #495057;
+            padding-top: 10px;
+            margin-top: 10px;
+            font-size: 12px;
+            color: #868e96;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark shadow">
+        <div class="container">
+            <!-- Logo e nome à esquerda -->
+            <a class="navbar-brand" href="@Url.Action("Index", "Home")">
+                <img src="~/Assets/logo.png" alt="Logo" style="height: 35px; width: auto;" />
+                Castro Motors
+            </a>
+
+            <!-- Menu centralizado -->
+            <div class="d-flex flex-grow-1 justify-content-center">
+                <ul class="navbar-nav">
+                    <li class="nav-item" style="margin-right: 5px;">
+                        <a class="nav-link" href="@Url.Action("Index", "Home")">
+                            <img src="~/Assets/Icons/home.png" alt="Home" style="height: 16px; margin-right: 2px;" /> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("About", "Home")">
+                            <img src="~/Assets/Icons/about.png" alt="Sobre" style="height: 16px; margin-right: 2px;" /> Sobre
+                        </a>
+                    </li>
+
+                    @if (isAdmin)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Index", "Cars")">
+                                <img src="~/Assets/Icons/cars.png" alt="Carros" style="height: 16px; margin-right: 2px;" /> Carros
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Index", "Brands")">
+                                <img src="~/Assets/Icons/brands.png" alt="Marcas" style="height: 16px; margin-right: 2px;" /> Marcas
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Index", "Categories")">
+                                <img src="~/Assets/Icons/categories.png" alt="Categorias" style="height: 16px; margin-right: 2px;" /> Categorias
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </div>
+
+            <!-- Seção de login ou dropdown de usuário alinhada à direita -->
+            <div class="d-flex ms-auto">
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </nav>
+
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+
+    <footer class="container-fluid bg-dark text-light py-5">
+        <div class="container text-center">
+            <!-- Logo e descrição da empresa -->
+            <div class="mb-4">
+                <img src="~/Assets/logo.png" alt="Castro Motors Logo" style="height: 50px; width: auto;">
+                <p class="mt-3">A loja de carros dos seus sonhos, com uma seleção de veículos que une qualidade, estilo e confiança.</p>
+            </div>
+
+            <!-- Links de navegação no footer -->
+            <div class="d-flex justify-content-center mb-4">
+                <a href="@Url.Action("Index", "Home")" class="text-light mx-3">Início</a>
+                <a href="@Url.Action("About", "Home")" class="text-light mx-3">Sobre Nós</a>
+                <a href="@Url.Action("Login", "Account")" class="text-light mx-3">Login</a>
+                <a href="@Url.Action("Register", "Account")" class="text-light mx-3">Registrar-se</a>
+            </div>
+
+            <!-- Redes Sociais -->
+            <div class="d-flex justify-content-center mb-4">
+                <a href="https://facebook.com" target="_blank" class="text-light mx-2">
+                    <img src="~/Assets/Icons/facebook.png" alt="Facebook" style="height: 24px;">
+                </a>
+                <a href="https://instagram.com" target="_blank" class="text-light mx-2">
+                    <img src="~/Assets/Icons/instagram.png" alt="Instagram" style="height: 24px;">
+                </a>
+                <a href="https://twitter.com" target="_blank" class="text-light mx-2">
+                    <img src="~/Assets/Icons/twitter.png" alt="Twitter" style="height: 24px;">
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="text-light mx-2">
+                    <img src="~/Assets/Icons/linkedin.png" alt="LinkedIn" style="height: 24px;">
+                </a>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p class="mb-0">&copy; @DateTime.Now.Year Castro Motors. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    @section Scripts {
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    }
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

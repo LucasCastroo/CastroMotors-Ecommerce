@@ -1,0 +1,39 @@
+﻿@model CastroMotors.Models.Category
+
+@{
+    ViewBag.Title = "Excluir Categoria";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center my-4 display-4 text-danger">@ViewBag.Title</h2>
+
+<div class="d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+    <div class="card shadow-lg p-4 mb-5 bg-white rounded" style="width: 100%; max-width: 700px;">
+        <h4 class="card-title text-center text-danger mb-4">Tem certeza de que deseja excluir esta categoria?</h4>
+
+        <div class="mb-3">
+            <label class="form-label fw-bold text-secondary">Nome</label>
+            <p class="form-control-plaintext">@Model.Name</p>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-bold text-secondary">Descrição</label>
+            <p class="form-control-plaintext">@Model.Description</p>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-bold text-secondary">Código</label>
+            <p class="form-control-plaintext">@Model.Code</p>
+        </div>
+
+        <!-- Botões de Confirmação -->
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            <div class="d-flex justify-content-center mt-4">
+                <input type="submit" value="Excluir" class="btn btn-danger btn-lg mx-2" />
+                @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-secondary btn-lg mx-2" })
+            </div>
+        }
+    </div>
+</div>

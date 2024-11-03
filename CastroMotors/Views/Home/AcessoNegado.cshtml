@@ -1,0 +1,23 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Acesso Negado";
+}
+
+<main aria-labelledby="title" class="d-flex flex-column align-items-center justify-content-center" style="height: 80vh;">
+    <div class="card shadow-lg p-4 text-center" style="max-width: 500px; width: 100%;">
+        <!-- Ícone de perigo -->
+        <div class="mb-3">
+            <img src="~/Assets/Icons/cuidado.png" alt="Danger Icon" style="height: 50px; width: auto;" />
+        </div>
+
+        <h2 id="title" class="text-danger mb-4">@ViewBag.Title</h2>
+
+        <p class="text-muted">
+            Desculpe, você não tem permissão para acessar esta página. Entre em contato com o administrador do sistema caso acredite que isso é um engano.
+        </p>
+
+        <div class="d-grid mt-4">
+            <a href="@Url.Action("Index", "Home")" class="btn btn-primary btn-lg">Voltar para a Página Inicial</a>
+        </div>
+    </div>
+</main>

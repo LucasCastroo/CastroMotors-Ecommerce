@@ -1,0 +1,51 @@
+﻿@model IEnumerable<CastroMotors.Models.Category>
+
+@{
+    ViewBag.Title = "Gerenciamento de Categorias";
+}
+
+<style>
+    .btn-create {
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-create:hover {
+            background-color: #0056b3;
+            color: #fff;
+        }
+</style>
+
+<main>
+    <h2 class="text-center mb-4">@ViewBag.Title</h2>
+
+    <div class="d-flex justify-content-end mb-3">
+        @Html.ActionLink("Adicionar Nova Categoria", "Create", null, new { @class = "btn btn-success btn-create" })
+    </div>
+
+    <table class="table table-striped table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Nome da Categoria</th>
+                <th>Descrição</th>
+                <th>Código</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Description</td>
+                    <td>@item.Code</td>
+                    <td>
+                        @Html.ActionLink("Editar", "Edit", new { id = item.CategoryId }, new { @class = "btn btn-warning btn-sm" })
+                        @Html.ActionLink("Detalhes", "Details", new { id = item.CategoryId }, new { @class = "btn btn-info btn-sm" })
+                        @Html.ActionLink("Excluir", "Delete", new { id = item.CategoryId }, new { @class = "btn btn-danger btn-sm" })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</main>

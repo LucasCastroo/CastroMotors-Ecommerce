@@ -1,0 +1,822 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|c:\\users\\lucas\\documents\\lucas castro\\faculdade\\5\u00B0 per\u00EDodo\\t\u00F3picos em programa\u00E7\u00E3o iii\\castromotors\\castromotors\\app_start\\startup.auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\app_start\\startup.auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\garage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\garage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\home\\acessonegado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\home\\acessonegado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\models\\adminonlyattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\models\\adminonlyattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\manage\\setpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\manage\\setpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\account\\resetpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\account\\resetpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\manage\\managelogins.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\manage\\managelogins.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\cars\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\cars\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\app_start\\identityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\app_start\\identityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\controllers\\garagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\controllers\\garagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\account\\externalloginconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\account\\externalloginconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\account\\externalloginfailure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\account\\externalloginfailure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\account\\_externalloginslistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\account\\_externalloginslistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\shared\\lockout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\shared\\lockout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\castromotors\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FE2BAE1-DE1E-4DBF-BE98-7C3B398B0C98}|CastroMotors\\CastroMotors.csproj|solutionrelative:castromotors\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 181,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 36,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CastroMotors\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CastroMotors\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T21:17:31.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AcessoNegado.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Home\\AcessoNegado.cshtml",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\Home\\AcessoNegado.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Home\\AcessoNegado.cshtml",
+              "RelativeToolTip": "CastroMotors\\Views\\Home\\AcessoNegado.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T21:12:52.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Manage\\SetPassword.cshtml",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\Manage\\SetPassword.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Manage\\SetPassword.cshtml",
+              "RelativeToolTip": "CastroMotors\\Views\\Manage\\SetPassword.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T21:09:58.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ConfirmEmail.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Account\\ConfirmEmail.cshtml",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\Account\\ConfirmEmail.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Account\\ConfirmEmail.cshtml",
+              "RelativeToolTip": "CastroMotors\\Views\\Account\\ConfirmEmail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T21:08:47.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ManageLogins.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Manage\\ManageLogins.cshtml",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\Manage\\ManageLogins.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Manage\\ManageLogins.cshtml",
+              "RelativeToolTip": "CastroMotors\\Views\\Manage\\ManageLogins.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T20:54:16.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "CastroMotors\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T20:33:47.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Cars\\Details.cshtml",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\Cars\\Details.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Cars\\Details.cshtml",
+              "RelativeToolTip": "CastroMotors\\Views\\Cars\\Details.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwEEAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T20:15:54.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CastroMotors\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAIsAAACMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T19:19:24.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Garage\\Index.cshtml",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\Garage\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Garage\\Index.cshtml",
+              "RelativeToolTip": "CastroMotors\\Views\\Garage\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T18:45:54.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "CastroMotors\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Models\\Category.cs",
+              "RelativeToolTip": "CastroMotors\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T17:12:47.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "CastroMotors\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "CastroMotors\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T17:11:04.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "CastroMotors\\Models\\Brand.cs",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Models\\Brand.cs",
+              "RelativeToolTip": "CastroMotors\\Models\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:29:19.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IdentityModels.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Models\\IdentityModels.cs",
+              "RelativeDocumentMoniker": "CastroMotors\\Models\\IdentityModels.cs",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Models\\IdentityModels.cs",
+              "RelativeToolTip": "CastroMotors\\Models\\IdentityModels.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:24:24.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "CastroMotors\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Models\\Order.cs",
+              "RelativeToolTip": "CastroMotors\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:24:07.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "CastroMotors\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Models\\OrderItem.cs",
+              "RelativeToolTip": "CastroMotors\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:23:54.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "CastroMotors\\Models\\Car.cs",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Models\\Car.cs",
+              "RelativeToolTip": "CastroMotors\\Models\\Car.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA3wC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:23:36.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\packages.config",
+              "RelativeDocumentMoniker": "CastroMotors\\packages.config",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\packages.config",
+              "RelativeToolTip": "CastroMotors\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-01T13:10:52.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Global.asax.cs",
+              "RelativeDocumentMoniker": "CastroMotors\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Global.asax.cs",
+              "RelativeToolTip": "CastroMotors\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:09:31.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Web.config",
+              "RelativeDocumentMoniker": "CastroMotors\\Web.config",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Web.config",
+              "RelativeToolTip": "CastroMotors\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-01T13:09:24.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "CastroMotors\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "CastroMotors\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T21:59:13.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "OrderItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Controllers\\OrderItemsController.cs",
+              "RelativeDocumentMoniker": "CastroMotors\\Controllers\\OrderItemsController.cs",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Controllers\\OrderItemsController.cs",
+              "RelativeToolTip": "CastroMotors\\Controllers\\OrderItemsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T21:59:09.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GarageController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Controllers\\GarageController.cs",
+              "RelativeDocumentMoniker": "CastroMotors\\Controllers\\GarageController.cs",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Controllers\\GarageController.cs",
+              "RelativeToolTip": "CastroMotors\\Controllers\\GarageController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T21:58:45.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "CastroMotors\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "CastroMotors\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T21:58:40.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CarsController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Controllers\\CarsController.cs",
+              "RelativeDocumentMoniker": "CastroMotors\\Controllers\\CarsController.cs",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Controllers\\CarsController.cs",
+              "RelativeToolTip": "CastroMotors\\Controllers\\CarsController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T21:58:34.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "BrandsController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Controllers\\BrandsController.cs",
+              "RelativeDocumentMoniker": "CastroMotors\\Controllers\\BrandsController.cs",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Controllers\\BrandsController.cs",
+              "RelativeToolTip": "CastroMotors\\Controllers\\BrandsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T21:58:25.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminOnlyAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Models\\AdminOnlyAttribute.cs",
+              "RelativeDocumentMoniker": "CastroMotors\\Models\\AdminOnlyAttribute.cs",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Models\\AdminOnlyAttribute.cs",
+              "RelativeToolTip": "CastroMotors\\Models\\AdminOnlyAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T21:57:15.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ExternalLoginConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Account\\ExternalLoginConfirmation.cshtml",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\Account\\ExternalLoginConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Account\\ExternalLoginConfirmation.cshtml",
+              "RelativeToolTip": "CastroMotors\\Views\\Account\\ExternalLoginConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T21:30:50.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ExternalLoginFailure.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Account\\ExternalLoginFailure.cshtml",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\Account\\ExternalLoginFailure.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Account\\ExternalLoginFailure.cshtml",
+              "RelativeToolTip": "CastroMotors\\Views\\Account\\ExternalLoginFailure.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T21:30:36.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IdentityConfig.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\App_Start\\IdentityConfig.cs",
+              "RelativeDocumentMoniker": "CastroMotors\\App_Start\\IdentityConfig.cs",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\App_Start\\IdentityConfig.cs",
+              "RelativeToolTip": "CastroMotors\\App_Start\\IdentityConfig.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T20:57:34.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ResetPasswordConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Account\\ResetPasswordConfirmation.cshtml",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\Account\\ResetPasswordConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Account\\ResetPasswordConfirmation.cshtml",
+              "RelativeToolTip": "CastroMotors\\Views\\Account\\ResetPasswordConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T20:53:56.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "CastroMotors\\Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T20:51:04.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ForgotPasswordConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
+              "RelativeToolTip": "CastroMotors\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T20:39:35.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "CastroMotors\\Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T20:39:34.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "CastroMotors\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "CastroMotors\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T20:32:59.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ManageController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Controllers\\ManageController.cs",
+              "RelativeDocumentMoniker": "CastroMotors\\Controllers\\ManageController.cs",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Controllers\\ManageController.cs",
+              "RelativeToolTip": "CastroMotors\\Controllers\\ManageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgBAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T20:17:47.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Models\\AccountViewModels.cs",
+              "RelativeDocumentMoniker": "CastroMotors\\Models\\AccountViewModels.cs",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Models\\AccountViewModels.cs",
+              "RelativeToolTip": "CastroMotors\\Models\\AccountViewModels.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAGwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T19:48:36.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.Auth.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\App_Start\\Startup.Auth.cs",
+              "RelativeDocumentMoniker": "CastroMotors\\App_Start\\Startup.Auth.cs",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\App_Start\\Startup.Auth.cs",
+              "RelativeToolTip": "CastroMotors\\App_Start\\Startup.Auth.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T19:26:05.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Startup.cs",
+              "RelativeDocumentMoniker": "CastroMotors\\Startup.cs",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Startup.cs",
+              "RelativeToolTip": "CastroMotors\\Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T19:25:56.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "CastroMotors\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "CastroMotors\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAswA8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T18:53:38.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "CastroMotors\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADgAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T18:51:47.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "CastroMotors\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T18:51:30.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Manage\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\Manage\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Manage\\ChangePassword.cshtml",
+              "RelativeToolTip": "CastroMotors\\Views\\Manage\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T18:26:59.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Manage\\Index.cshtml",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\Manage\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Manage\\Index.cshtml",
+              "RelativeToolTip": "CastroMotors\\Views\\Manage\\Index.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T18:24:22.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "_ExternalLoginsListPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Account\\_ExternalLoginsListPartial.cshtml",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\Account\\_ExternalLoginsListPartial.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Account\\_ExternalLoginsListPartial.cshtml",
+              "RelativeToolTip": "CastroMotors\\Views\\Account\\_ExternalLoginsListPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T17:31:33.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CastroMotors\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAIwJIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T17:18:30.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "CastroMotors\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAgwHoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T16:56:13.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "CastroMotors\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T16:56:06.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Lockout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Shared\\Lockout.cshtml",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\Shared\\Lockout.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Shared\\Lockout.cshtml",
+              "RelativeToolTip": "CastroMotors\\Views\\Shared\\Lockout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T16:55:56.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "CastroMotors\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T16:55:49.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Web.config",
+              "RelativeDocumentMoniker": "CastroMotors\\Views\\Web.config",
+              "ToolTip": "C:\\Users\\lucas\\Documents\\LUCAS CASTRO\\FACULDADE\\5\u00B0 PER\u00CDODO\\T\u00D3PICOS EM PROGRAMA\u00C7\u00C3O III\\CastroMotors\\CastroMotors\\Views\\Web.config",
+              "RelativeToolTip": "CastroMotors\\Views\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-31T16:55:46.517Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+﻿@model CastroMotors.Models.Car
+
+@{
+    ViewBag.Title = "Detalhes do Carro";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .price {
+        color: #28a745;
+    }
+</style>
+
+<h2 class="text-center my-4 display-4 text-primary">@ViewBag.Title</h2>
+
+<div class="d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+    <div class="card shadow-lg p-4 mb-5 bg-white rounded" style="width: 100%; max-width: 700px;">
+        <h4 class="card-title text-center text-dark mb-4">Informações do Carro</h4>
+
+        <!-- Imagem do Carro -->
+        <div class="text-center mb-4">
+            <img src="@Url.Content(Model.ImagePath)" alt="Imagem do Carro" class="img-fluid rounded" style="max-height: 300px; object-fit: cover;">
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label class="form-label fw-bold text-secondary">Marca</label>
+                <p class="form-control-plaintext">@Model.Brand.Name</p>
+            </div>
+            <div class="col-md-6">
+                <label class="form-label fw-bold text-secondary">Modelo</label>
+                <p class="form-control-plaintext">@Model.Model</p>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label class="form-label fw-bold text-secondary">Ano</label>
+                <p class="form-control-plaintext">@Model.Year</p>
+            </div>
+            <div class="col-md-6">
+                <label class="form-label fw-bold text-secondary">Cor</label>
+                <p class="form-control-plaintext">@Model.Color</p>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label class="form-label fw-bold text-secondary">Categoria</label>
+                <p class="form-control-plaintext">@Model.Category.Name</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <label class="form-label fw-bold text-secondary">Preço</label>
+                <p class="display-6 price fw-bold">@String.Format("{0:C}", Model.Price)</p>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-bold text-secondary">Descrição</label>
+            <p class="form-control-plaintext">@Model.Description</p>
+        </div>
+
+        <!-- Botões para adicionar à garagem e voltar -->
+        <div class="text-center mt-4">
+            <!-- Formulário para adicionar o carro à garagem -->
+            @using (Html.BeginForm("AddToGarage", "Garage", FormMethod.Post))
+            {
+                @Html.Hidden("carId", Model.CarId)
+                <button type="submit" class="btn btn-primary btn-lg shadow" style="margin-bottom: 10px;" >
+                    <img src="~/Assets/Icons/add.png" alt="Adicionar" style="height: 20px; margin-right: 8px; margin-bottom: 4px;" />
+                    Adicionar à Garagem
+                </button>
+            }
+
+            <a href="@Url.Action("Index", "Home")" class="btn btn-secondary btn-lg shadow ms-2">
+                <img src="~/Assets/Icons/back.png" alt="Voltar" style="height: 20px; margin-right: 8px; margin-bottom: 4px;" />
+                Voltar
+            </a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

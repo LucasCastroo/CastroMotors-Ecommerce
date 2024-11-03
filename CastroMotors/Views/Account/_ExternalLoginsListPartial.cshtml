@@ -1,0 +1,35 @@
+﻿@model CastroMotors.Models.ExternalLoginListViewModel
+@using Microsoft.Owin.Security
+
+<main aria-labelledby="title" class="d-flex flex-column align-items-center justify-content-center">
+    <div class="card shadow-lg p-4" style="max-width: 500px; width: 100%;">
+        <h2 id="title" class="text-center text-primary mb-4">Entrar com outro serviço</h2>
+
+        @{
+            var loginProviders = Context.GetOwinContext().Authentication.GetExternalAuthenticationTypes();
+            if (!loginProviders.Any())
+            {
+                <div class="text-center text-muted">
+                    <p>Não há serviços de autenticação externa configurados.</p>
+                    <p>Veja <a href="https://go.microsoft.com/fwlink/?LinkId=403804" target="_blank">este artigo</a> para obter detalhes sobre a configuração de serviços de autenticação externa.</p>
+                </div>
+            }
+            else
+            {
+                using (Html.BeginForm("ExternalLogin", "Account", new { ReturnUrl = Model.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <p class="text-center text-muted mb-3">Escolha um serviço para entrar:</p>
+                    <div class="d-grid gap-2">
+                        @foreach (var provider in loginProviders)
+                        {
+                            <button type="submit" class="btn btn-outline-primary btn-lg" id="@provider.AuthenticationType" name="provider" value="@provider.AuthenticationType">
+                                <img src="~/Assets/Icons/@(provider.AuthenticationType.ToLower()).png" alt="@provider.Caption Logo" style="height: 20px; margin-right: 8px;" /> Entrar com @provider.Caption
+                            </button>
+                        }
+                    </div>
+                }
+            }
+        }
+    </div>
+</main>

@@ -1,0 +1,53 @@
+﻿@model CastroMotors.Models.IndexViewModel
+@{
+    ViewBag.Title = "Gerenciar Conta";
+}
+
+<main aria-labelledby="title" class="container mt-4">
+    <h2 id="title" class="text-primary">@ViewBag.Title</h2>
+
+    @if (!string.IsNullOrEmpty(ViewBag.StatusMessage))
+    {
+        <div class="alert alert-success mt-3">
+            @ViewBag.StatusMessage
+        </div>
+    }
+
+    <div class="card shadow-sm mt-4">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Configurações da Conta</h4>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-4">Senha:</dt>
+                <dd class="col-sm-8">
+                    @if (Model.HasPassword)
+                    {
+                        @Html.ActionLink("Alterar sua senha", "ChangePassword", null, new { @class = "btn btn-outline-primary btn-sm" })
+                    }
+                    else
+                    {
+                        @Html.ActionLink("Criar uma senha", "SetPassword", null, new { @class = "btn btn-outline-success btn-sm" })
+                    }
+                </dd>
+
+                <dt class="col-sm-4">Logins Externos:</dt>
+                <dd class="col-sm-8">
+                    @Model.Logins.Count @Html.ActionLink("Gerenciar logins", "ManageLogins", null, new { @class = "btn btn-outline-secondary btn-sm ms-2" })
+                </dd>
+
+                <dt class="col-sm-4">Autenticação em Duas Etapas:</dt>
+                <dd class="col-sm-8">
+                    <p class="text-muted">Nenhum provedor de autenticação em duas etapas configurado.</p>
+                    <p>
+                        <small>Consulte <a href="https://go.microsoft.com/fwlink/?LinkId=403804" target="_blank">este artigo</a> para mais informações sobre como configurar autenticação em duas etapas para esta aplicação.</small>
+                    </p>
+                </dd>
+            </dl>
+        </div>
+    </div>
+</main>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+}

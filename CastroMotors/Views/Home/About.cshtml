@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Sobre a Castro Motors";
+    ViewBag.Message = "A Loja de Carros dos Seus Sonhos";
+}
+
+<main aria-labelledby="title">
+    <h2 id="title" class="text-center my-4 display-4">@ViewBag.Title</h2>
+    <h3 class="text-center text-secondary mb-5">@ViewBag.Message</h3>
+
+    <div class="container">
+
+        <!-- Descrição da Loja -->
+        <section class="my-5">
+            <p class="lead text-justify">
+                <strong>Castro Motors</strong> é a loja de carros onde os seus sonhos automotivos se tornam realidade! Com uma seleção incrível de veículos de luxo, SUVs robustos, e modelos econômicos para o dia a dia, oferecemos opções para cada estilo de vida e preferência. Nosso compromisso é transformar sua experiência de compra em algo fácil e seguro.
+            </p>
+            <p class="text-justify">
+                Com mais de 10 anos no mercado, nossa missão é proporcionar uma experiência de compra que prioriza a transparência e a confiança. Na Castro Motors, cada cliente é único, e estamos prontos para oferecer atendimento personalizado, ajudando você a encontrar o carro ideal.
+            </p>
+            <p class="text-justify">
+                Desde a praticidade de navegar em nossa plataforma intuitiva até a qualidade dos veículos selecionados com cuidado, nós garantimos uma experiência completa e satisfatória. Seja para descobrir as últimas tendências em carros de luxo ou encontrar o modelo perfeito para sua rotina, nossa equipe está aqui para atender todas as suas necessidades.
+            </p>
+            <div class="text-center mt-4">
+                <a href="@Url.Action("Index", "Home")" class="btn btn-primary btn-lg">Explore Nossos Veículos</a>
+            </div>
+            <p class="text-center font-weight-bold text-primary mt-4">
+                Venha para a Castro Motors e descubra seu próximo carro dos sonhos conosco!
+            </p>
+        </section>
+    </div>
+</main>

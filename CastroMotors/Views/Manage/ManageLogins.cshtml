@@ -1,0 +1,92 @@
+﻿@model CastroMotors.Models.ManageLoginsViewModel
+@using Microsoft.Owin.Security
+@{
+    ViewBag.Title = "Gerenciar logins externos";
+}
+
+<main aria-labelledby="title" class="d-flex flex-column align-items-center justify-content-center">
+    <div class="card shadow-lg p-4" style="max-width: 600px; width: 100%;">
+        <h2 id="title" class="text-center mb-4">@ViewBag.Title</h2>
+
+        <p class="text-success text-center">@ViewBag.StatusMessage</p>
+
+        @{
+            var loginProviders = Context.GetOwinContext().Authentication.GetExternalAuthenticationTypes();
+            if (loginProviders.Count() == 0)
+            {
+                <div class="text-center">
+                    <p class="text-muted">
+                        Não há serviços de autenticação externa configurados. Consulte
+                        <a href="https://go.microsoft.com/fwlink/?LinkId=313242">este artigo</a> para obter detalhes sobre como configurar esta aplicação para suportar logins externos.
+                    </p>
+                </div>
+            }
+            else
+            {
+                if (Model.CurrentLogins.Count > 0)
+                {
+                    <h4 class="text-center text-muted">Logins Registrados</h4>
+                    <table class="table table-bordered mt-3">
+                        <thead>
+                            <tr>
+                                <th>Provedor</th>
+                                <th>Ação</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var account in Model.CurrentLogins)
+                            {
+                                <tr>
+                                    <td>@account.LoginProvider</td>
+                                    <td>
+                                        @if (ViewBag.ShowRemoveButton)
+                                        {
+                                            using (Html.BeginForm("RemoveLogin", "Manage"))
+                                            {
+                                                @Html.AntiForgeryToken()
+                                                <div class="d-flex justify-content-center">
+                                                    @Html.Hidden("loginProvider", account.LoginProvider)
+                                                    @Html.Hidden("providerKey", account.ProviderKey)
+                                                    <button type="submit" class="btn btn-outline-danger btn-sm">
+                                                        <img src="~/Assets/Icons/remove.png" alt="Remover" style="height: 16px; margin-right: 4px;" />
+                                                        Remover
+                                                    </button>
+                                                </div>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <span>&nbsp;</span>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                }
+
+                if (Model.OtherLogins.Count > 0)
+                {
+                    <h4 class="text-center text-muted mt-4">Conectar com Outras Contas</h4>
+                    using (Html.BeginForm("LinkLogin", "Manage"))
+                    {
+                        @Html.AntiForgeryToken()
+                        <div class="d-flex justify-content-center mt-3">
+                            @foreach (AuthenticationDescription p in Model.OtherLogins)
+                            {
+                                <button type="submit" class="btn btn-outline-primary me-2" id="@p.AuthenticationType" name="provider" value="@p.AuthenticationType">
+                                    <img src="~/Assets/Icons/@p.AuthenticationType.ToLower().Replace(" ", "") + " .png" alt="@p.AuthenticationType" style="height: 20px; margin-right: 8px;" />
+                                    Conectar com @p.AuthenticationType
+                                </button>
+                            }
+                        </div>
+                    }
+                }
+            }
+        }
+    </div>
+</main>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

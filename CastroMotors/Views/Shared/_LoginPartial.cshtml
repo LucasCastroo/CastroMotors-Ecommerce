@@ -1,0 +1,128 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    <style>
+        .navbar-user-info {
+            color: #333;
+            font-weight: bold;
+            margin-right: 15px;
+            cursor: pointer;
+        }
+
+            .navbar-user-info .username {
+                color: #007bff;
+            }
+
+        .dropdown-menu-custom {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: none;
+            position: absolute;
+            right: 0;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            min-width: 150px;
+            z-index: 1000;
+        }
+
+            .dropdown-menu-custom.show {
+                display: block;
+            }
+
+        .dropdown-item {
+            padding: 10px;
+            color: #333;
+            text-decoration: none;
+        }
+
+            .dropdown-item:hover {
+                background-color: #f8f9fa;
+            }
+
+        .btn-garagem {
+            margin-right: 15px;
+            text-decoration: none;
+            color: black;
+        }
+
+            .btn-garagem:hover {
+                color: gray;
+            }
+
+        .icon {
+            width: 16px;
+            height: 16px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+    </style>
+
+    <ul class="navbar-nav ms-auto d-flex align-items-center">
+        <li class="nav-item">
+            <a href="@Url.Action("Index", "Garage")" class="btn-garagem">
+                <img src="~/Assets/Icons/garagem.png" alt="Garagem" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 15px;" />
+            </a>
+        </li>
+
+        <!-- Menu personalizado para Perfil e Sair -->
+        <li class="nav-item dropdown position-relative">
+            <div class="navbar-user-info d-flex align-items-center" onclick="toggleDropdown()" id="userDropdown">
+                <span>Olá, <span class="username">@User.Identity.GetUserName()</span></span>
+                <i class="fas fa-caret-down ms-2"></i>
+            </div>
+            <ul class="dropdown-menu-custom" id="customDropdown">
+                <li>
+                    <a class="dropdown-item" href="@Url.Action("Index", "Manage")">
+                        <img src="~/Assets/Icons/user-icon.png" alt="Perfil" class="icon" /> Perfil
+                    </a>
+                </li>
+                <li><hr class="dropdown-divider"></li>
+                <li>
+                    @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="dropdown-item text-danger">
+                            <img src="~/Assets/Icons/logout-icon.png" alt="Sair" class="icon" /> Sair
+                        </button>
+                    }
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <script>
+        function toggleDropdown() {
+            var dropdown = document.getElementById('customDropdown');
+            dropdown.classList.toggle('show');
+        }
+
+        // Fecha o dropdown ao clicar fora
+        window.onclick = function (event) {
+            if (!event.target.closest('#userDropdown')) {
+                var dropdowns = document.getElementsByClassName("dropdown-menu-custom");
+                for (var i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+}
+else
+{
+    <ul class="navbar-nav d-inline">
+        <li class="nav-item">
+            <a id="loginLink" href="@Url.Action("Login", "Account")" class="nav-link text-primary">
+                <img src="~/Assets/Icons/user.png" alt="user" style="height: 16px; margin-right: 4px;" />
+                Entrar
+            </a>
+        </li>
+    </ul>
+}
+
+

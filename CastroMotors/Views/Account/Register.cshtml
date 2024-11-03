@@ -1,0 +1,70 @@
+﻿@model CastroMotors.Models.RegisterViewModel
+@{
+    ViewBag.Title = "Register";
+}
+
+<main aria-labelledby="title" class="d-flex flex-column align-items-center justify-content-center">
+    <div class="text-center mb-3">
+        <img src="~/Assets/logo.png" alt="Logo" style="height: 120px; width: auto;" />
+    </div>
+    <div class="card shadow-lg p-4" style="max-width: 500px; width: 100%;">
+        <h2 id="title" class="text-center mb-4">@ViewBag.Title</h2>
+        <div class="row">
+            <div class="col">
+                <section id="registerForm">
+                    @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { role = "form" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <h5 class="text-muted text-center">Crie uma nova conta</h5>
+                        <hr />
+                        @Html.ValidationSummary("", new { @class = "text-danger" })
+
+                        <div class="mb-3">
+                            @Html.LabelFor(m => m.Email, new { @class = "form-label fw-semibold" })
+                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "Digite seu email" })
+                            @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="mb-3">
+                            @Html.LabelFor(m => m.Password, new { @class = "form-label fw-semibold" })
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Digite sua senha" })
+                            @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="mb-3">
+                            @Html.LabelFor(m => m.ConfirmPassword, new { @class = "form-label fw-semibold" })
+                            @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control", placeholder = "Confirme sua senha" })
+                            @Html.ValidationMessageFor(m => m.ConfirmPassword, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="d-grid mb-3">
+                            <input type="submit" value="Register" class="btn btn-dark btn-lg" />
+                        </div>
+
+                        <div class="text-center">
+                            <p class="mb-0">
+                                Já possui uma conta? @Html.ActionLink("Faça login", "Login", null, new { @class = "link-secondary" })
+                            </p>
+                        </div>
+                    }
+                </section>
+
+                <div class="text-center">
+                    <p class="text-muted mb-2">Ou registre-se usando:</p>
+                    @using (Html.BeginForm("ExternalLogin", "Account", new { provider = "Google", returnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { id = "google-register" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-outline-primary btn-lg">
+                            <img src="~/Assets/Icons/google.png" alt="Google Logo" style="height: 20px; margin-right: 8px;" /> Registrar com Google
+                        </button>
+                    }
+                </div>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
