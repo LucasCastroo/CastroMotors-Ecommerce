@@ -16,7 +16,7 @@ Seguindo as instruções do trabalho irei explicar de forma resumida o que eu fi
 - Lembrando que em cada CRUD são 4 telas para cada um.
 - Essas telas são protegidas para apenas o usuário administrador ter acesso.
 
-* Criei um usuário Administrador com email "administrador@gmail.com" e senha "Adm123@", que somente este acesso tem acesso as telas de CRUDs.
+* Criei um usuário Administrador com email "administrador@gmail.com" e senha "Adm123@", que somente este usuário tem acesso as telas de CRUDs.
 
 * Criei um tela de proteção da tela na qual o usuário não tenha acesso, caso ele tente acessar via URL.
 
